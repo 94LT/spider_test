@@ -7,9 +7,9 @@ import time
 def print_hi(name):
     # 在下面的代码行中使用断点来调试脚本。
     num = 0
-    while num<10000:
+    while num<5000:
         print(f'Hi, {num}  {name}')
-        time.sleep(1)
+        time.sleep(0.05)
         num += 1
         # 按 Ctrl+F8 切换断点。
 
